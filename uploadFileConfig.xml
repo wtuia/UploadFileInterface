@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <ftp server="" user="" pass="" port="21">
+        <file>
+            <localPath>C:\Users\14244\Desktop\uptest</localPath><!--文件本地路径-->
+            <ftpPath>ftpFile</ftpPath> <!--上传到FTP的路径-->
+            <fileName>OLT_GY_</fileName> <!--文件名(不含日期)-->
+            <format>yyyyMMdd</format><!--文件日期格式(如：yyyy-MM-dd)-->
+            <type>csv</type><!--文件类型-->
+            <encoding>GB2312</encoding><!--文件编码-->
+        </file>
+        <file>
+            <localPath></localPath>
+            <ftpPath></ftpPath>
+            <fileName></fileName>
+            <format></format>
+            <type></type>
+            <encoding></encoding>
+        </file>
+    </ftp>
+    <ftp server="" user="" pass="" port="21">
+        <file>
+            <localPath>C:\Users\14244\Desktop</localPath>
+            <ftpPath>zhizhen_port_paper</ftpPath>
+            <fileName>pon_onu_offlineinfo</fileName>
+            <format></format>
+            <type>sql</type>
+            <encoding>UTF-8</encoding>
+        </file>
+    </ftp>
+</root>
